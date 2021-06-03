@@ -60,8 +60,7 @@ function Home() {
               <p>With Deezer Premium, your music is always with you - from your morning run to your dinner. You can listen to it anytime, on all your devices, even without 4G and WiFi.</p>
               <br/> 
               <p>Premium : 2.19 $</p>
-              <br/> 
-              <p>Family : 3.99 $</p>
+              <p>Family : 3.99 $</p><br/> 
               <button className={style.btn}>Buy</button>
           </div>
       </div>
