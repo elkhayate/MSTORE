@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 .container {
     margin-top: 1px;
     background-color: black;
@@ -18,10 +19,17 @@
     width: 90%;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     align-content: center;
     
+}
+.item {
+    margin: 20px;
+}
+.info h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
 }
 @media (max-width : 1100px) {
     .info {
