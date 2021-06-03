@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.container {
+    background: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 1px;
+}
+.product {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    background-color: #1b1b1b;
+    border-radius: 15px;
+    margin-top: 50px;
+    color: white;
+}
+.pimg img {
+    border-radius: 10px;
+    margin: 9px;
+    height: 350px;
+    width: 300px;
+}
+.pinfo {
+    margin: 15px;
+    display: flexbox;
+    justify-content: space-between;
+    
+}
+.pinfo p {
+    font: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140.69%;
+    color: white;
+    margin: auto;
+}
+
+.btn {
+    height: 40px;
+    width: 90px;
+    font: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140.69%;
+    color: black;
+    background-color: white;
+    border: 0px;
+    border-radius: 3px;
+    margin-top: 5px;
+    cursor: pointer;
+}

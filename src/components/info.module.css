@@ -1,0 +1,24 @@
+.container {
+    margin-top: 1px;
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.info {
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 150px;
+    text-align: center;
+}
+.items {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    
+}
